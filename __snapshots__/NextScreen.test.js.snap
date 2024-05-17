@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NextScreen component renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-evenly",
+            "marginVertical": 30,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 24,
+              "opacity": 1,
+              "width": 24,
+            }
+          }
+        >
+          <FontAwesome
+            color="#888"
+            name="angle-left"
+            size={20.01}
+          />
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#d9d9d9",
+                "borderRadius": 30,
+                "flexDirection": "row",
+                "height": 56,
+                "justifyContent": "space-between",
+                "paddingHorizontal": 10,
+                "width": 231,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "height": 24,
+                  "opacity": 1,
+                  "width": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "gap": 12,
+                  }
+                }
+              >
+                <FontAwesome
+                  color="#888"
+                  name="search"
+                  size={20}
+                  style={
+                    {
+                      "marginRight": 5,
+                    }
+                  }
+                />
+                <TextInput
+                  onChangeText={[Function]}
+                  onSubmitEditing={[Function]}
+                  placeholder="Search..."
+                  style={
+                    {
+                      "color": "#2E3E5C",
+                      "fontSize": 15,
+                      "height": 20,
+                      "letterSpacing": 0.7,
+                      "lineHeight": 18.15,
+                      "marginLeft": 5,
+                      "width": 72,
+                    }
+                  }
+                  value=""
+                />
+              </View>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "marginLeft": 80,
+                  }
+                }
+              >
+                <FontAwesome
+                  color="#888"
+                  name="times-circle"
+                  size={18.01}
+                  style={
+                    {
+                      "color": "#2E3E5C",
+                      "height": 24,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <View>
+          <Image
+            source={
+              {
+                "testUri": "../../../assets/filter2.png",
+              }
+            }
+            style={
+              {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "justifyContent": "space-evenly",
+            "marginVertical": 24,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

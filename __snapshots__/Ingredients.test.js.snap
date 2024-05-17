@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ingredients component renders correctly 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "marginTop": 40,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": 80,
+              "marginLeft": 20,
+            }
+          }
+        >
+          <FontAwesome
+            color="#888"
+            name="angle-left"
+            onPress={[Function]}
+            size={20}
+            style={
+              {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#3E5481",
+                "fontSize": 24,
+                "fontWeight": "700",
+                "height": 35,
+                "letterSpacing": 0.5,
+                "lineHeight": 32,
+              }
+            }
+          >
+            Ingredients
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://img.freepik.com/free-photo/healthy-lunch-vegetarian-pasta-with-fresh-tomato-generated-by-ai_24640-81714.jpg",
+              }
+            }
+            style={
+              {
+                "borderRadius": 100,
+                "height": 200,
+                "marginTop": 20,
+                "width": 200,
+              }
+            }
+          />
+          <Text
+            style={
+              {
+                "color": "#3E5481",
+                "fontSize": 22,
+                "fontWeight": "700",
+                "height": 32,
+                "letterSpacing": 0.5,
+                "lineHeight": 32,
+                "marginTop": 20,
+                "textAlign": "center",
+                "width": 108,
+              }
+            }
+          >
+            Macroni
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 26,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <ActivityIndicator
+            color="#0000ff"
+            size="large"
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "fooddeliveryRN",
+    "slug": "fooddeliveryRN",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "android.permission.CAMERA",
+          "android.permission.INTERNET"
+        ]
+      },
+      "package": "com.ridhitek.fooddeliveryRN"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ba149c8e-6d4a-48aa-82cd-9db28e88e261"
+      }
+    }
+  }
+}

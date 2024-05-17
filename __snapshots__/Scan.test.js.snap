@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scan component renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "flex-end",
+            "marginBottom": 40,
+          }
+        }
+      >
+        <View
+          disabled={false}
+          onPress={[Function]}
+          style={
+            [
+              {
+                "borderBottomWidth": 0,
+                "borderColor": "#D0DBEA",
+                "borderRadius": 32,
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 230,
+                "paddingTop": 20,
+              },
+              false,
+            ]
+          }
+        >
+          <View>
+            <Text
+              disabled={false}
+              onPress={[Function]}
+              style={
+                [
+                  {
+                    "color": "#3E5481",
+                    "fontSize": 17,
+                    "fontWeight": "700",
+                    "height": 27,
+                    "letterSpacing": 0.5,
+                    "lineHeight": 27,
+                    "textAlign": "center",
+                  },
+                  false,
+                ]
+              }
+            >
+              Choose one option
+            </Text>
+            <View
+              style={
+                {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "gap": 30,
+                  "height": 150,
+                  "justifyContent": "center",
+                  "marginTop": 30,
+                  "width": 400,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": false,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "borderColor": "#D0DBEA",
+                    "borderRadius": 16,
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                    "display": "flex",
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "testUri": "../../../assets/burger.png",
+                    }
+                  }
+                  style={
+                    {
+                      "height": 96,
+                      "width": 101,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#3E5481",
+                      "fontSize": 15,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5,
+                      "lineHeight": 25,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Food
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": false,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "borderColor": "#D0DBEA",
+                    "borderRadius": 16,
+                    "borderStyle": "solid",
+                    "borderWidth": 1,
+                    "display": "flex",
+                    "opacity": 1,
+                    "paddingHorizontal": 20,
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    {
+                      "testUri": "../../../assets/pepper.png",
+                    }
+                  }
+                  style={
+                    {
+                      "height": 96,
+                      "width": 96,
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#3E5481",
+                      "fontSize": 15,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5,
+                      "lineHeight": 25,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Ingredient
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

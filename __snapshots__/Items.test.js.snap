@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items component renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+      "marginHorizontal": 10,
+      "marginTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginVertical": 40,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-evenly",
+          "marginVertical": 30,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      >
+        <FontAwesome
+          color="#888"
+          name="angle-left"
+          onPress={[Function]}
+          size={20.01}
+        />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#d9d9d9",
+              "borderRadius": 30,
+              "flexDirection": "row",
+              "height": 56,
+              "justifyContent": "space-between",
+              "paddingHorizontal": 10,
+              "width": 231,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          >
+            <FontAwesome
+              color="#888"
+              name="search"
+              size={18.01}
+              style={
+                {
+                  "marginRight": 5,
+                }
+              }
+            />
+          </View>
+          <TextInput
+            autoCorrect={false}
+            onChangeText={[Function]}
+            placeholder="Search..."
+            style={
+              {
+                "color": "#2E3E5C",
+                "fontSize": 15,
+                "height": 20,
+                "letterSpacing": 0.7,
+                "lineHeight": 18.15,
+                "marginLeft": 5,
+                "width": 72,
+              }
+            }
+            value=""
+          />
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "marginLeft": 80,
+                }
+              }
+            >
+              <FontAwesome
+                color="#888"
+                name="times-circle"
+                size={18.01}
+                style={
+                  {
+                    "color": "#2E3E5C",
+                    "height": 24,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/filter2.png",
+            }
+          }
+          style={
+            {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomWidth": 8,
+          "borderColor": "#d9d9d9",
+          "height": 8,
+          "marginVertical": 40,
+          "width": 375,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "paddingTop": 8,
+            }
+          }
+        >
+          <FontAwesome
+            color="#888"
+            name="clock-o"
+            size={18.01}
+            style={
+              {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "color": "#3E5481",
+              "fontSize": 17,
+              "fontWeight": "500",
+              "letterSpacing": 0.5,
+              "lineHeight": 27,
+              "paddingLeft": 17,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#3E5481",
+                "fontSize": 17,
+                "fontWeight": "500",
+                "letterSpacing": 0.5,
+                "lineHeight": 27,
+                "paddingLeft": 17,
+              }
+            }
+          >
+            Pancakes
+          </Text>
+        </View>
+      </View>
+      <View>
+        <FontAwesome
+          color="#888"
+          name="arrow-up"
+          size={18.01}
+          style={
+            [
+              {
+                "height": 24,
+                "width": 24,
+              },
+              {
+                "transform": [
+                  {
+                    "rotate": "-45deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "paddingTop": 8,
+            }
+          }
+        >
+          <FontAwesome
+            color="#888"
+            name="clock-o"
+            size={18.01}
+            style={
+              {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "color": "#3E5481",
+              "fontSize": 17,
+              "fontWeight": "500",
+              "letterSpacing": 0.5,
+              "lineHeight": 27,
+              "paddingLeft": 17,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#3E5481",
+                "fontSize": 17,
+                "fontWeight": "500",
+                "letterSpacing": 0.5,
+                "lineHeight": 27,
+                "paddingLeft": 17,
+              }
+            }
+          >
+            Pancakes
+          </Text>
+        </View>
+      </View>
+      <View>
+        <FontAwesome
+          color="#888"
+          name="arrow-up"
+          size={18.01}
+          style={
+            [
+              {
+                "height": 24,
+                "width": 24,
+              },
+              {
+                "transform": [
+                  {
+                    "rotate": "-45deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomWidth": 8,
+          "borderColor": "#d9d9d9",
+          "height": 8,
+          "marginVertical": 40,
+          "width": 375,
+        }
+      }
+    />
+    <View>
+      <Text
+        style={
+          {
+            "fontSize": 17,
+            "fontWeight": "700",
+            "letterSpacing": 0.5,
+            "lineHeight": 27,
+            "marginHorizontal": 20,
+          }
+        }
+      >
+        Search suggestions
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": 10,
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            {
+              "backgroundColor": "#d9d9d9",
+              "borderRadius": 32,
+              "color": "#3E5481",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "height": 48,
+              "letterSpacing": 0.7,
+              "lineHeight": 18,
+              "marginLeft": 20,
+              "marginTop": 20,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 118,
+            }
+          }
+        >
+          sushi
+        </Text>
+        <Text
+          style={
+            {
+              "backgroundColor": "#d9d9d9",
+              "borderRadius": 32,
+              "color": "#3E5481",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "height": 48,
+              "letterSpacing": 0.7,
+              "lineHeight": 18,
+              "marginLeft": 20,
+              "marginTop": 20,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 118,
+            }
+          }
+        >
+          sandwich
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            {
+              "backgroundColor": "#d9d9d9",
+              "borderRadius": 32,
+              "color": "#3E5481",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "height": 48,
+              "letterSpacing": 0.7,
+              "lineHeight": 18,
+              "marginLeft": 20,
+              "marginTop": 20,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 118,
+            }
+          }
+        >
+          seafood
+        </Text>
+        <Text
+          style={
+            {
+              "backgroundColor": "#d9d9d9",
+              "borderRadius": 32,
+              "color": "#3E5481",
+              "fontSize": 15,
+              "fontWeight": "500",
+              "height": 48,
+              "letterSpacing": 0.7,
+              "lineHeight": 18,
+              "marginLeft": 20,
+              "marginTop": 20,
+              "paddingTop": 10,
+              "textAlign": "center",
+              "width": 118,
+            }
+          }
+        >
+          friedrice
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
